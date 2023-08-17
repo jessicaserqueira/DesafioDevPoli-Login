@@ -125,10 +125,10 @@ extension SignUpView {
     
     func setupConstraints() {
         NSLayoutConstraint.activate([
-            mainView.topAnchor.constraint(equalTo: topAnchor),
-            mainView.leadingAnchor.constraint(equalTo: leadingAnchor),
-            mainView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            mainView.bottomAnchor.constraint(equalTo: bottomAnchor)
+            mainView.topAnchor.constraint(equalTo: topAnchor, constant: 0),
+            mainView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 0),
+            mainView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: 0),
+            mainView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 0)
         ])
         
         NSLayoutConstraint.activate([
